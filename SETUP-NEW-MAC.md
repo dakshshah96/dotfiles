@@ -170,9 +170,9 @@ Paste the contents of the `.gitconfig` file in this repository in the newly crea
 
 ## Set up GPG signing for commits
 
-* Install `gnupg` using Homebrew:
+* Install the `gpg-suite-no-mail` Homebrew cask:
 ```
-brew install gnupg
+brew cask install gpg-suite-no-mail
 ```
 * [Generate a new GPG key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 * [Add the new GPG key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account)
@@ -196,21 +196,10 @@ brew install gnupg
 ```sh
 export GPG_TTY=$(tty)
 ```
-* Install `pinentry-mac` using Homebrew:
+* Run the following test command to check if everything works fine and your key is printed. Select the "Add to keychain" option in the passphrase prompt if you don't want to enter it repeatedly.
 ```
-brew install pinentry-mac
-```
-* Add the following line to `~/.gnupg/gpg-agent.conf`:
-```
-pinentry-program /usr/local/bin/pinentry-mac
-```
-* Test everything works fine:
-```sh
-gpgconf --kill gpg-agent
 echo "test" | gpg --clearsign
 ```
-
-_Check [this Stack Overflow answer](https://stackoverflow.com/questions/41052538/git-error-gpg-failed-to-sign-data/41054093) or [this blog post](https://merikan.com/2019/05/how-to-sign-git-commits/) in case you come across any evil errors._
 
 # Generate SSH key
 
