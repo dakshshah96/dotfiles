@@ -179,13 +179,18 @@ brew install gnupg
 * Configure GPG signing in `.gitconfig`:
 ```
 [user]
-	name       = Daksh Shah
-	email      = dakshshah96@gmail.com
-	signingkey = F111A753041D81AD
+
+  name        =   Daksh Shah
+  email       =   dakshshah96@gmail.com
+  signingkey  =   F111A753041D81AD
+
 [github]
-  user       = dakshshah96
+
+  user        =   dakshshah96
+
 [gpg]
-	program    = gpg
+
+  program     =   gpg
 ```
 * Export `GPG_TTY` in `~/.zshrc`:
 ```sh
