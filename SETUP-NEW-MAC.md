@@ -82,6 +82,7 @@ mas install 1351639930 # Gifski
 
 - Alfred
 - Bartender
+- ToothFairy
 - Name Mangler
 - PDF Expert
 - Paragon NTFS
