@@ -4,11 +4,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/dakshshah/.oh-my-zsh"
 
-# Pure prompt
-# See https://github.com/sindresorhus/pure
-autoload -U promptinit; promptinit
-prompt pure
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -87,6 +82,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Pure prompt
+# See https://github.com/sindresorhus/pure
+autoload -U promptinit; promptinit
+prompt pure
 # Make GPG signing work correctly
 export GPG_TTY=$(tty)
 # You may need to manually set your language environment
