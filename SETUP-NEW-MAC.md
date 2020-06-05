@@ -28,7 +28,8 @@ brew install \
   yarn \
   mas \
   aria2 \
-  youtube-dl
+  youtube-dl \
+  mkcert
 ```
 
 ## GUI apps
