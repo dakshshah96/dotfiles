@@ -62,8 +62,8 @@ brew cask install \
   postman \
   qmoji \
   rectangle \
+  robo-3t \
   slack \
-  studio-3t \
   the-unarchiver \
   visual-studio-code \
   vlc \
