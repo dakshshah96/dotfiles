@@ -29,7 +29,8 @@ brew install \
   mas \
   aria2 \
   youtube-dl \
-  mkcert
+  mkcert \
+  subliminal
 ```
 
 ## GUI apps
