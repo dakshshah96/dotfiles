@@ -55,6 +55,7 @@ brew cask install \
   inkscape \
   iterm2 \
   kap \
+  macs-fan-control \
   microsoft-edge \
   netnewswire \
   nordvpn \
