@@ -113,6 +113,7 @@
 
 [core]
 
+	editor = code --wait
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	excludesfile = ~/.gitignore_global
 
