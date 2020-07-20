@@ -57,6 +57,7 @@ brew cask install \
   kap \
   macs-fan-control \
   microsoft-edge \
+  mongodb-compass \
   monitorcontrol \
   netnewswire \
   nordvpn \
