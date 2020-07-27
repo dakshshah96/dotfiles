@@ -19,6 +19,9 @@
 
 [alias]
 
+	# Remove git branches and prune orphaned remotes
+	bc = "!git fetch origin --prune && git branch --merged origin/master | grep -v 'master$' | xargs git branch -d"
+
   # View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 	# List commits in short form, with colors and branch/tag annotations
@@ -84,10 +87,6 @@
 
 	# Find commits by commit message
 	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
-
-	# Remove branches that have already been merged with master
-	# a.k.a. ‘delete merged’
-	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
