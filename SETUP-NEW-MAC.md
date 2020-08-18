@@ -22,11 +22,14 @@ Try to install as much stuff as possible using the command line.
 
 ## Command line apps
 
+### Homebrew
+
 ```
 brew install \
   git \
   yarn \
   mas \
+  ffmpeg \
   aria2 \
   youtube-dl \
   mkcert \
