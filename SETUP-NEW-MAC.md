@@ -16,6 +16,12 @@ Make sure everything is up to date.
 brew update
 ```
 
+# Simple Python Version Management: pyenv
+
+pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
+
+pyenv can usually be installed using Homebrew but there might be a few extra steps involved. Check out their [official documentation](https://github.com/pyenv/pyenv) for the latest installation instructions.
+
 # Install apps
 
 Try to install as much stuff as possible using the command line.
