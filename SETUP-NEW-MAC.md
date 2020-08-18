@@ -36,6 +36,15 @@ brew install \
   subliminal
 ```
 
+### Python
+
+* [ffsubsync](https://github.com/smacke/ffsubsync)
+
+```
+pip install \
+  ffsubsync
+```
+
 ## GUI apps
 
 ### Brew casks
