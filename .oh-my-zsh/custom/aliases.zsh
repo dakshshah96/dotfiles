@@ -109,3 +109,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # For managing dotfiles in git
 alias config='/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# For downloading subtitles using subliminal
+alias subd='subliminal download -l en'
