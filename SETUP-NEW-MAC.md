@@ -276,3 +276,24 @@ wix.vscode-import-cost
 ## Theme
 
 I currently use the [Night Owl theme by Sarah Drasner](https://github.com/sdras/night-owl-vscode-theme) with a few customized font settings which can be found in the synced settings Gist.
+
+# Miscellaneous
+
+## Automator: make PDF look like scanned
+
+Printing, stamping and signing documents all day isn't fun. Here's a quick Automator workflow to make any PDF document look like it was scanned. Make sure you have both `imagemagick` and `ghostscript` installed via Homebrew first.
+
+```sh
+# Workflow receives current "PDF files" in "any application"
+# Shell: /bin/zsh
+# Pass input: "as arguments"
+export PATH=/usr/local/bin:$PATH
+for f in "$@"
+do
+
+	base=${f%.pdf}
+	base=$base"_scanned.pdf"
+	convert -density 150 "$f" -rotate "$([ $((RANDOM % 2)) -eq 1 ] && echo -)0.$(($RANDOM % 4 + 5))" -colorspace Gray "$base"
+
+done
+```
