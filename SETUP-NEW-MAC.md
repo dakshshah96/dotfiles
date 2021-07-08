@@ -16,6 +16,12 @@ Make sure everything is up to date.
 brew update
 ```
 
+# Quick Look Extensions
+
+* [SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight): Previewing source files with syntax highlighting
+* [QLMarkdown](https://github.com/sbarex/QLMarkdown): Previewing Markdown files
+* [BetterZip](https://macitbetter.com/BetterZip-Quick-Look-Generator/): Previewing the contents of archives
+
 # Simple Python Version Management: pyenv
 
 pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
