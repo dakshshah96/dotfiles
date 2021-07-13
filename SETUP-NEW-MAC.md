@@ -37,6 +37,8 @@ Try to install as much stuff as possible using the command line.
 ### Homebrew
 
 ```
+brew tap clementtsang/bottom
+
 brew install \
   git \
   yarn \
@@ -45,7 +47,12 @@ brew install \
   aria2 \
   youtube-dl \
   mkcert \
-  subliminal
+  subliminal \
+  exa \
+  xh \
+  dog \
+  duf \
+  bottom
 ```
 
 ### Python
@@ -54,7 +61,8 @@ brew install \
 
 ```
 pip install \
-  ffsubsync
+  ffsubsync \
+  glances
 ```
 
 ## GUI apps
