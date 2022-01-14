@@ -108,7 +108,6 @@ brew install git yarn
 
 * [SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight): Previewing source files with syntax highlighting
 * [QLMarkdown](https://github.com/sbarex/QLMarkdown): Previewing Markdown files
-* [BetterZip](https://macitbetter.com/BetterZip-Quick-Look-Generator/): Previewing the contents of archives
 
 # Simple Python Version Management: pyenv
 
