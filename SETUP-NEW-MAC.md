@@ -320,34 +320,7 @@ cat ~/.ssh/id_rsa.pub
 
 # VS Code
 
-I use the awesome [Settings Sync](https://github.com/shanalikhan/code-settings-sync) extension to keep an up-to-date list of all settings, snippets, themes, file icons, launch, keybindings, workspaces and extensions on [this GitHub Gist](https://gist.github.com/dakshshah96/3eb77547e2f8c35ea8860d0d4b134446).
-
-## Extensions
-
-This is a list of few must-have extensions. This might not be up-to-date. Check the synced settings Gist for the latest list.
-
-```
-aaron-bond.better-comments
-ban.spellright
-bradlc.vscode-tailwindcss
-bungcip.better-toml
-ChakrounAnas.turbo-console-log
-christian-kohler.npm-intellisense
-christian-kohler.path-intellisense
-CoenraadS.bracket-pair-colorizer
-dbaeumer.vscode-eslint
-firsttris.vscode-jest-runner
-heybourn.headwind
-octref.vetur
-oderwat.indent-rainbow
-redhat.vscode-yaml
-shardulm94.trailing-spaces
-wix.vscode-import-cost
-```
-
-## Theme
-
-I currently use the [Night Owl theme by Sarah Drasner](https://github.com/sdras/night-owl-vscode-theme) with a few customized font settings which can be found in the synced settings Gist.
+Turn on VS Code's [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync), and sign in with GitHub. No other setup needed. Period.
 
 # Miscellaneous
 
