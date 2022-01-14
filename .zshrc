@@ -77,6 +77,9 @@ plugins=(
   history-substring-search
 )
 
+# Set fzf installation directory
+export FZF_BASE=/opt/homebrew/bin/fzf
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -89,8 +92,6 @@ prompt pure
 export GPG_TTY=$(tty)
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
-# Set fzf installation directory
-export FZF_BASE=/opt/homebrew/bin/fzf
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
