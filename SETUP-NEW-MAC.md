@@ -216,7 +216,7 @@ mas install 1351639930 # Gifski
 
 ## Theme
 
-Taking inspiration from [Sindre Sorhus](https://github.com/sindresorhus), I've paired the [Pure ZSH prompt](https://github.com/sindresorhus/pure) with the [Snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy).
+Taking inspiration from [Sindre Sorhus](https://github.com/sindresorhus), I've paired the [Pure ZSH prompt](https://github.com/sindresorhus/pure) with the [Snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy). Use the "Git clone" method while installing the Pure prompt. Our `~/.zshrc` file already contains the necessary config assuming you've cloned Pure at `$HOME/.zsh/pure`.
 
 Change the font to Operator Mono in the iTerm2 preferences to get the perfect look for your terminal.
 
