@@ -257,19 +257,13 @@ npm -v
 
 # Git
 
-The first thing you should do with Git is set your global configuration.
-
-```
-touch ~/.gitconfig
-```
-
-Paste the contents of the `.gitconfig` file in this repository in the newly created file.
+The first thing you should do with Git is set your global configuration. If you've cloned this repo, the `~/.gitconfig` should already be set up correctly.
 
 ## Set up GPG signing for commits
 
 * Install the `gpg-suite-no-mail` Homebrew cask:
 ```
-brew cask install gpg-suite-no-mail
+brew install --cask gpg-suite-no-mail
 ```
 * [Generate a new GPG key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 * [Add the new GPG key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account)
