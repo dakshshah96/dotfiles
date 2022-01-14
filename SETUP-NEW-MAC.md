@@ -2,6 +2,59 @@
 
 The setup assistant will launch once you turn the computer on. Enter your language, time zone, Apple ID, and so on. The first thing you should do is update macOS to get the latest security updates and patches.
 
+# Shell
+
+Catalina comes with zsh as the default shell. Install Oh My Zsh for sensible defaults.
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+# Install dotfiles
+
+Prior to the installation make sure you have committed the alias to your `.bashrc` or `.zsh`:
+
+```
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+```
+
+And that your source repository ignores the folder where you'll clone it, so that you don't create weird recursion problems:
+
+```
+echo ".cfg" >> .gitignore
+```
+
+Now clone the dotfiles into a bare repository in a "dot" folder of your $HOME:
+
+```
+git clone --bare https://github.com/dakshshah96/dotfiles.git $HOME/.cfg
+```
+
+Checkout the actual content from the bare repository to your `$HOME`:
+
+```
+config checkout
+```
+
+The step above might fail with a message might fail due to a conflict with existing files. The solution is simple: back up the files if you care about them, remove them if you don't care.
+
+Set the flag `showUntrackedFiles` to no on this specific (local) repository:
+
+```
+config config --local status.showUntrackedFiles no
+```
+
+You're done, from now on you can now type config commands to add and update your dotfiles:
+
+```
+config status
+config add .vimrc
+config commit -m "Add vimrc"
+config add .bashrc
+config commit -m "Add bashrc"
+config push
+```
+
 # Homebrew
 
 Install the Homebrew package manager. This will allow you to install almost any app from the command line.
@@ -126,14 +179,6 @@ mas install 1351639930 # Gifski
 - Microsoft Excel
 - Microsoft Powerpoint
 - Microsoft Word
-
-# Shell
-
-Catalina comes with zsh as the default shell. Install Oh My Zsh for sensible defaults.
-
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 
 ## Aliases
 
