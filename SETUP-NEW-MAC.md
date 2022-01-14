@@ -69,6 +69,12 @@ Make sure everything is up to date.
 brew update
 ```
 
+Install some basic CLI tools first:
+
+```
+brew install git yarn
+```
+
 # Quick Look Extensions
 
 * [SourceCodeSyntaxHighlight](https://github.com/sbarex/SourceCodeSyntaxHighlight): Previewing source files with syntax highlighting
