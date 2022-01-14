@@ -55,6 +55,29 @@ config commit -m "Add bashrc"
 config push
 ```
 
+# Shell Extras
+
+## Plugins
+
+Oh My Zsh supports a ton of plugins. Here are a few I like to use:
+
+* [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
+* [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
+* [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+
+## Aliases
+
+I’m a big fan of aliases. The steps to adding aliases for oh-my-zsh are as follows:
+
+* Go to the folder `cd ~/.oh-my-zsh/custom`
+* Create a new `aliases.zsh` file. You can name it what ever you’d like
+* Copy the contents of the `aliases.zsh` file in this repository to the newly created file
+* Save and quit the editor
+* Restart your terminal or use `source ~/.zshrc`
+
 # Homebrew
 
 Install the Homebrew package manager. This will allow you to install almost any app from the command line.
@@ -185,27 +208,6 @@ mas install 1351639930 # Gifski
 - Microsoft Excel
 - Microsoft Powerpoint
 - Microsoft Word
-
-## Aliases
-
-I’m a big fan of aliases. The steps to adding aliases for oh-my-zsh are as follows:
-
-* Go to the folder `cd ~/.oh-my-zsh/custom`
-* Create a new `aliases.zsh` file. You can name it what ever you’d like
-* Copy the contents of the `aliases.zsh` file in this repository to the newly created file
-* Save and quit the editor
-* Restart your terminal or use `source ~/.zshrc`
-
-## Plugins
-
-Oh My Zsh supports a ton of plugins. Here are a few I like to use:
-
-* [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
-* [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
-* [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
-* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
 ## Theme
 
