@@ -122,3 +122,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# add homebrew to path
+export PATH="/opt/homebrew/bin:$PATH"
