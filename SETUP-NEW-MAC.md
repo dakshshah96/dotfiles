@@ -303,13 +303,14 @@ Turn on VS Code's [Settings Sync](https://code.visualstudio.com/docs/editor/sett
 
 ## Automator: make PDF look like scanned
 
-Printing, stamping and signing documents all day isn't fun. Here's a quick Automator workflow to make any PDF document look like it was scanned. Make sure you have both `imagemagick` and `ghostscript` installed via Homebrew first.
+Printing, stamping and signing documents all day isn't fun. Here's a quick Automator Quick Action to make any PDF document look like it was scanned. Make sure you have both `imagemagick` and `ghostscript` installed via Homebrew first.
 
 ```sh
 # Workflow receives current "PDF files" in "any application"
+# Action: Run Shell Script
 # Shell: /bin/zsh
 # Pass input: "as arguments"
-export PATH=/usr/local/bin:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
 for f in "$@"
 do
 
