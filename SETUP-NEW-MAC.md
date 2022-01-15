@@ -118,104 +118,6 @@ pyenv lets you easily switch between multiple versions of Python. It's simple, u
 
 pyenv can usually be installed using Homebrew but there might be a few extra steps involved. Check out their [official documentation](https://github.com/pyenv/pyenv) for the latest installation instructions.
 
-# Install apps
-
-Try to install as much stuff as possible using the command line.
-
-## Command line apps
-
-### Homebrew
-
-```
-brew tap clementtsang/bottom
-
-brew install \
-  fzf \
-  mas \
-  ffmpeg \
-  aria2 \
-  youtube-dl \
-  mkcert \
-  subliminal \
-  exa \
-  xh \
-  dog \
-  duf \
-  bottom
-```
-
-### Python
-
-* [ffsubsync](https://github.com/smacke/ffsubsync)
-
-```
-pip install \
-  ffsubsync \
-  glances
-```
-
-## GUI apps
-
-### Brew casks
-
-```
-brew cask install \
-  1password \
-  appcleaner \
-  google-backup-and-sync \
-  balenaetcher \
-  bitbar \
-  calibre \
-  disk-inventory-x \
-  dropbox \
-  firefox \
-  gimp \
-  google-chrome \
-  google-drive-file-stream \
-  imageoptim \
-  inkscape \
-  iterm2 \
-  kap \
-  macs-fan-control \
-  microsoft-edge \
-  mongodb-compass \
-  monitorcontrol \
-  netnewswire \
-  nordvpn \
-  opera \
-  postman \
-  qmoji \
-  rectangle \
-  robo-3t \
-  slack \
-  the-unarchiver \
-  visual-studio-code \
-  vlc \
-  webtorrent \
-  whatsapp \
-  zoomus
-```
-
-### Mac App Store
-
-```sh
-mas install 409183694 # Keynote
-mas install 409201541 # Pages
-mas install 1351639930 # Gifski
-```
-
-### Paid apps
-
-- Alfred
-- Bartender
-- ToothFairy
-- Name Mangler
-- PDF Expert
-- Paragon NTFS
-- Microsoft Excel
-- Microsoft Powerpoint
-- Microsoft Word
-
 # Node.js
 
 We'll install and use [n](https://github.com/tj/n) to manage Node. This allows you to easily switch between Node versions, which is essential.
@@ -294,6 +196,10 @@ View your public key. You can also [add this key to GitHub](https://help.github.
 ```
 cat ~/.ssh/id_rsa.pub
 ```
+
+# Install apps
+
+A huge list of useful CLI tools and apps (may not be up to date):
 
 # VS Code
 
