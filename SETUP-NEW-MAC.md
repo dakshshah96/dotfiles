@@ -191,6 +191,7 @@ A huge list of useful CLI tools and apps (not in any particular order/may not be
 - [DaisyDisk](https://apps.apple.com/us/app/daisydisk/id411643860)
 - [Fig](https://fig.io/)
 - [Gifski](https://github.com/sindresorhus/Gifski)
+- [ImageOptim](https://imageoptim.com/mac)
 - [Infuse](https://firecore.com/infuse)
 - [Kap](https://github.com/wulkano/Kap)
 - [Linear](https://linear.app/)
