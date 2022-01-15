@@ -178,7 +178,51 @@ cat ~/.ssh/id_rsa.pub
 
 # Install apps
 
-A huge list of useful CLI tools and apps (may not be up to date):
+A huge list of useful CLI tools and apps (not in any particular order/may not be up to date):
+
+<details>
+<summary>Click to expand!</summary>
+
+- [1Password](https://1password.com/)
+- [AdGuard](https://adguard.com)
+- [Altair GraphQL Client](https://github.com/altair-graphql/altair)
+- [balenaEtcher](https://www.balena.io/etcher/)
+- [Brave Browser](https://brave.com/)
+- [DaisyDisk](https://apps.apple.com/us/app/daisydisk/id411643860)
+- [Fig](https://fig.io/)
+- [Gifski](https://github.com/sindresorhus/Gifski)
+- [Infuse](https://firecore.com/infuse)
+- [Kap](https://github.com/wulkano/Kap)
+- [Linear](https://linear.app/)
+- Microsoft Excel
+- Microsoft Powerpoint
+- Microsoft Word
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+- [Notion](https://www.notion.so/)
+- Numbers
+- Pages
+- [PDF Expert](https://pdfexpert.com/)
+- [Pixelmator Pro](https://www.pixelmator.com/pro/)
+- [Raycast](https://www.raycast.com/)
+- [Rectangle](https://github.com/rxhanson/Rectangle)
+- [Setapp](https://setapp.com/)
+- [Silicon](https://github.com/DigiDNA/Silicon)
+- [Slack](https://slack.com/intl/en-in/)
+- [Spotify](https://www.spotify.com/in-en/)
+- [Telegram](https://telegram.org/)
+- [Todoist](https://todoist.com/)
+- [Transmission](https://transmissionbt.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [WhatsApp](https://www.whatsapp.com/download)
+- [Wondershare PDFelement](https://pdf.wondershare.com/)
+- [Zoom](https://zoom.us/download)
+	
+- [Doppler](https://docs.doppler.com/docs/cli)
+- [fzf](https://github.com/junegunn/fzf)
+- [mkcert](https://github.com/FiloSottile/mkcert)
+- [subliminal](https://github.com/Diaoul/subliminal)
+
+</details>
 
 # VS Code
 
