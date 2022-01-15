@@ -84,9 +84,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Init pyenv
-eval "$(pyenv init -)"
-
 # User configuration
 
 # Pure prompt
@@ -131,3 +128,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # add homebrew to path
 export PATH="/opt/homebrew/bin:$PATH"
+
+# Init pyenv
+eval "$(pyenv init -)"
