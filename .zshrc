@@ -9,9 +9,6 @@ fpath+=$HOME/.zsh/pure
 # Key bindings and fuzzy completion for fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Init pyenv
-eval "$(pyenv init -)"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -86,6 +83,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# Init pyenv
+eval "$(pyenv init -)"
 
 # User configuration
 
