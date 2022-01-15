@@ -193,6 +193,7 @@ A huge list of useful CLI tools and apps (not in any particular order/may not be
 - [Gifski](https://github.com/sindresorhus/Gifski)
 - [ImageOptim](https://imageoptim.com/mac)
 - [Infuse](https://firecore.com/infuse)
+- [Insomnia](https://insomnia.rest/download)
 - [Kap](https://github.com/wulkano/Kap)
 - [Linear](https://linear.app/)
 - Microsoft Excel
