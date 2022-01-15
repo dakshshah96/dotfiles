@@ -118,40 +118,19 @@ pyenv lets you easily switch between multiple versions of Python. It's simple, u
 
 pyenv can usually be installed using Homebrew but there might be a few extra steps involved. Check out their [official documentation](https://github.com/pyenv/pyenv) for the latest installation instructions.
 
-# Node.js
+# JavaScript tooling
 
-We'll install and use [n](https://github.com/tj/n) to manage Node. This allows you to easily switch between Node versions, which is essential.
-
-```
-brew install n
-```
+We use [Volta](https://volta.sh/) to manage all our JavaScript tooling. Volta’s job is to get out of your way. With Volta, you can select a Node engine once and then stop worrying about it. You can switch between projects and stop having to manually switch between Nodes. You can install npm package binaries in your toolchain without having to periodically reinstall them or figure out why they’ve stopped working.
 
 ## Install
 
-Install the latest LTS version.
+We'll skip updating our shell files during installation since we already have `VOLTA_HOME` set and `$VOLTA_HOME/bin` added to path:
 
 ```
-n lts
+curl https://get.volta.sh | bash -s -- --skip-setup
 ```
 
-Install a specific version.
-
-```
-n 10.16.0
-```
-
-Execute n on its own to view your downloaded versions, and install the selected version.
-
-```
-n
-```
-
-Confirm that you are using the right version of Node and npm.
-
-```
-node -v
-npm -v
-```
+That's it. [Learn more](https://docs.volta.sh/guide/understanding) about using Volta in their documentation.
 
 # Git
 
