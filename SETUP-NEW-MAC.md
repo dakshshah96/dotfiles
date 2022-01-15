@@ -241,6 +241,7 @@ A huge list of useful CLI tools and apps (not in any particular order/may not be
 - [fzf](https://github.com/junegunn/fzf)
 - [mkcert](https://github.com/FiloSottile/mkcert)
 - [subliminal](https://github.com/Diaoul/subliminal)
+- [GitHub CLI](https://github.com/cli/cli)
 
 </details>
 
