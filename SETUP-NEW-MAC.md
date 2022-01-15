@@ -81,6 +81,12 @@ I’m a big fan of aliases. The steps to adding aliases for oh-my-zsh are as fol
 * Save and quit the editor
 * Restart your terminal or use `source ~/.zshrc`
 
+## Theme
+
+Taking inspiration from [Sindre Sorhus](https://github.com/sindresorhus), I've paired the [Pure ZSH prompt](https://github.com/sindresorhus/pure) with the [Snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy). Use the "Git clone" method while installing the Pure prompt. Our `~/.zshrc` file already contains the necessary config assuming you've cloned Pure at `$HOME/.zsh/pure`.
+
+Change the font to [Operator Mono](https://www.typography.com/fonts/operator/overview) in the iTerm2 preferences to get the perfect look for your terminal.
+
 # Homebrew
 
 Install the Homebrew package manager. This will allow you to install almost any app from the command line.
@@ -209,12 +215,6 @@ mas install 1351639930 # Gifski
 - Microsoft Excel
 - Microsoft Powerpoint
 - Microsoft Word
-
-## Theme
-
-Taking inspiration from [Sindre Sorhus](https://github.com/sindresorhus), I've paired the [Pure ZSH prompt](https://github.com/sindresorhus/pure) with the [Snazzy iTerm2 theme](https://github.com/sindresorhus/iterm2-snazzy). Use the "Git clone" method while installing the Pure prompt. Our `~/.zshrc` file already contains the necessary config assuming you've cloned Pure at `$HOME/.zsh/pure`.
-
-Change the font to Operator Mono in the iTerm2 preferences to get the perfect look for your terminal.
 
 # Node.js
 
