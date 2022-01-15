@@ -124,8 +124,6 @@ Try to install as much stuff as possible using the command line.
 brew tap clementtsang/bottom
 
 brew install \
-  git \
-  yarn \
   fzf \
   mas \
   ffmpeg \
