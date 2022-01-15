@@ -275,6 +275,8 @@ echo "test" | gpg --clearsign
 
 # Generate SSH key
 
+⚠️ You could just transfer the SSH key from an older machine, but it's always recommended to generate a new SSH key for each location.
+
 You can generate an SSH key to distribute.
 
 ```
