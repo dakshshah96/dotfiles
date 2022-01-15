@@ -6,6 +6,9 @@ export ZSH="/Users/daksh/.oh-my-zsh"
 # Add the path of cloned pure prompt
 fpath+=$HOME/.zsh/pure
 
+# Key bindings and fuzzy completion for fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
