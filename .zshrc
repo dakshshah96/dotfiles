@@ -1,5 +1,11 @@
-# Add homebrew to path
-export PATH="/opt/homebrew/bin:$PATH"
+# Set variable for Volta
+VOLTA_HOME=$HOME/.volta
+
+# Add Homebrew to path
+path=('/opt/homebrew/bin' $path)
+
+# Add Volta to path
+path+=$VOLTA_HOME/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/daksh/.oh-my-zsh"
