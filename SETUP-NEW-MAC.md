@@ -61,10 +61,7 @@ config push
 
 Oh My Zsh supports a ton of plugins. Here are a few I like to use:
 
-* [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew) 
-* [fzf](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf)
-  * Install [fzf using Homebrew](https://github.com/junegunn/fzf#using-homebrew)
-  * `FZF_BASE` has already been added to path in `~/.zshrc`
+* [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
 * [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   * [Install on Oh My Zsh](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
@@ -129,6 +126,7 @@ brew tap clementtsang/bottom
 brew install \
   git \
   yarn \
+  fzf \
   mas \
   ffmpeg \
   aria2 \
