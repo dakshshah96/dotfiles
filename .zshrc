@@ -76,15 +76,11 @@ ZSH_THEME=""
 plugins=(
   git
   brew
-  fzf
   z
   zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search
 )
-
-# Set fzf installation directory
-export FZF_BASE=/opt/homebrew/bin/fzf
 
 source $ZSH/oh-my-zsh.sh
 
