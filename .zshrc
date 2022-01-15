@@ -1,4 +1,5 @@
-# If you come from bash you might have to change your $PATH.
+# Add homebrew to path
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/daksh/.oh-my-zsh"
@@ -48,9 +49,6 @@ pastefinish() {
 }
 zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
-
-# add homebrew to path
-export PATH="/opt/homebrew/bin:$PATH"
 
 # Init pyenv
 eval "$(pyenv init -)"
