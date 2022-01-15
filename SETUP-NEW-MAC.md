@@ -263,22 +263,7 @@ brew install --cask gpg-suite-no-mail
 ```
 * [Generate a new GPG key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 * [Add the new GPG key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account)
-* Configure GPG signing in `.gitconfig`:
-```
-[user]
-
-  name        =   Daksh Shah
-  email       =   dakshshah96@gmail.com
-  signingkey  =   F111A753041D81AD
-
-[github]
-
-  user        =   dakshshah96
-
-[gpg]
-
-  program     =   gpg
-```
+* Update the GPG `signingKey` in `.gitconfig`
 * Export `GPG_TTY` in `~/.zshrc`:
 ```sh
 export GPG_TTY=$(tty)
