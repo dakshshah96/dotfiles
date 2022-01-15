@@ -183,6 +183,8 @@ A huge list of useful CLI tools and apps (not in any particular order/may not be
 <details>
 <summary>Click to expand!</summary>
 
+## Direct Downloads
+
 - [1Password](https://1password.com/)
 - [AdGuard](https://adguard.com)
 - [Altair GraphQL Client](https://github.com/altair-graphql/altair)
@@ -218,6 +220,18 @@ A huge list of useful CLI tools and apps (not in any particular order/may not be
 - [WhatsApp](https://www.whatsapp.com/download)
 - [Wondershare PDFelement](https://pdf.wondershare.com/)
 - [Zoom](https://zoom.us/download)
+
+## SetApp
+
+- iBoysoft NTFS for Mac
+- CleanShot X
+- PixelSnap
+- Bartender
+- iStat Menus
+- Sip
+- Sizzy
+	
+## CLI
 	
 - [Doppler](https://docs.doppler.com/docs/cli)
 - [fzf](https://github.com/junegunn/fzf)
