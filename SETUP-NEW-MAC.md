@@ -153,6 +153,10 @@ export GPG_TTY=$(tty)
 ```
 echo "test" | gpg --clearsign
 ```
+* Save your GPG passphrase to prevent being prompted to enter it every time you commit. Install `pinentry-mac` using Homebrew and add the following line to `~/.gnupg/gpg-agent.conf`:
+```
+pinentry-program /opt/homebrew/bin/pinentry-mac
+```
 
 # Generate SSH key
 
