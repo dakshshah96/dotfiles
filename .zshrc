@@ -1,3 +1,9 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
+
 # Set variable for Volta
 VOLTA_HOME=$HOME/.volta
 
@@ -58,3 +64,8 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # Init pyenv
 eval "$(pyenv init -)"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
