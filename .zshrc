@@ -1,13 +1,8 @@
 # Fig pre block. Keep at the top of this file.
 . "$HOME/.fig/shell/zshrc.pre.zsh"
-# Set variable for Volta
-VOLTA_HOME=$HOME/.volta
 
 # Add Homebrew to path
 path=('/opt/homebrew/bin' $path)
-
-# Add Volta to path
-path+=$VOLTA_HOME/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/daksh/.oh-my-zsh"
