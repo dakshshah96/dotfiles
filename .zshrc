@@ -56,5 +56,10 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # Init pyenv
 eval "$(pyenv init -)"
 
+# pnpm
+export PNPM_HOME="/Users/daksh/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
 # Fig post block. Keep at the bottom of this file.
 . "$HOME/.fig/shell/zshrc.post.zsh"
