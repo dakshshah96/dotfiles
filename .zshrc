@@ -1,6 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
-
 # Add Homebrew to path
 path=('/opt/homebrew/bin' $path)
 
@@ -58,8 +55,11 @@ eval "$(pyenv init -)"
 
 # pnpm
 export PNPM_HOME="/Users/daksh/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/zshrc.post.zsh"
+# android
+export ANDROID_HOME="/Users/daksh/Library/Android/sdk"
+export ANDROID_SDK_ROOT="/Users/daksh/Library/Android/sdk"
+
+# export path with pnpm and android platform tools
+export PATH="$ANDROID_HOME/platform-tools:$PNPM_HOME:$PATH"
