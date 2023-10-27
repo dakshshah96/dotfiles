@@ -67,3 +67,6 @@ export ANDROID_SDK_ROOT="/Users/daksh/Library/Android/sdk"
 
 # export path with pnpm and android platform tools
 export PATH="$ANDROID_HOME/platform-tools:$PNPM_HOME:$PATH"
+
+# psql
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
