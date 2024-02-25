@@ -17,7 +17,7 @@ ZSH_THEME=""
 plugins=(
   git
   brew
-  z
+  zoxide
   zsh-autosuggestions
   zsh-syntax-highlighting
   history-substring-search
